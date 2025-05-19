@@ -9,10 +9,10 @@ let produto2 = 30
 let produto3 = 25
 
 let valorProdutos = produto1 + produto2 + produto3
-console.log(`Valor dos produtos: R$ ${valorProdutos}`)
+console.log(`Valor dos produtos: R\$ ${valorProdutos}`)
 
-let desconto = valorProdutos * 0.1
-console.log(`Desconto: R$ ${desconto}`)
+let imposto = valorProdutos * 0.1
+console.log(`Total de imposto: R\$ ${imposto}`)
 
-let totalCompra = valorProdutos - desconto
-console.log(`Valor total à pagar: R$ ${totalCompra}`)
+let totalCompra = valorProdutos + imposto
+console.log(`Valor total à pagar: R\$ ${totalCompra}`)
